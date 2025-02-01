@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+#logo{
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+#logo_text{
+    font-size: 27px;
+    color: black;
+
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.img{
+    border: 2px solid rgb(176, 202, 123);
+    border-radius: 7px;
+    box-shadow: -1px -1px 9px black;
+    margin: 20px 0px 2px 0px;
+    height: 550px;
+    width: 100%;
+    
+}
+
+.mainimg{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+h2{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.img_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+
+}
+
+.boxone{
+    display:grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    
+}
+
+#boxone{
+    height: 300px;
+    width: 550px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    
+}
+
+.boxpara{
+    padding: 20px;
+    background: #f7f4f4d4;
+}
+
+.boximg{
+    display: grid;
+    grid-template-columns: repeat(4, 1.3fr);
+    gap: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#lastimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+h3{
+    font-size: 20px;
+    padding: 2px;
+}
+
+span{
+    font-size: 18px;
+    padding: 2px;
+}
+
+.lastimg_para{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.add{
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer{
+    background: #393e46;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+}
+
